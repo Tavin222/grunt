@@ -1,0 +1,60 @@
+@fontPrin: Roboto, sans-serif;
+@fontTt: Lobster, cursive;
+@corText: #fff;
+@corFund: #eb3b5a;
+
+body {
+    background-color: @corFund ;
+    font-family: @fontPrin;
+    color: @corText;
+}
+
+h1 {
+    font-family: @fontTt;
+    font-size: 3em;
+}
+
+main {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 2em;
+    text-align: center;
+}
+
+button {
+    padding: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 1,3em;
+    margin-top: 16px;
+    background-color: #f7b731;
+    color: black;
+    font-family: @fontPrin;
+}
+
+input {
+    display: block;
+    margin: 16px auto 0;
+    font-size: 2em;
+    max-width: 120px;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    color: white;
+    border-bottom: 6px solid white;
+}
+
+.resultado {
+    padding: 16px;
+    margin-top: 120px;
+    border: 8px dotted #fff;
+    display:  none;
+
+    span {
+        font-weight: bold;
+        display: block;
+        font-size: 3em;
+    }
+}
